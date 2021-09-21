@@ -1,4 +1,4 @@
-package com.fw.instagram.member.model.dao;
+package com.fw.instagram.member.model.service;
 
 public class MemberService {
 

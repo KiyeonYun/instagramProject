@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	인스타그램
+	<jsp:forward page="WEB-INF/views/main.jsp"/>
 	
 </body>
 </html>
