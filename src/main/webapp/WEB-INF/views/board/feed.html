@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Instagram</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../common/style.css"/>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img href="feed.html" width="110px" src="../common/images/Instagram_logo.svg"/>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" placeholder="검색"/>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <!--임시 프로필 아이콘-->
+                        <li><a href="#"><i class="fas fa-home"></i></a></li>
+                        <li><a href="#"><i class="far fa-plus-square"></i></i></a></li>
+                        <li><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li><a href="#"><img href="" width="23px" src="../common/images/test.png"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Main -->
+        <section class="main">
+            <div class="wrapper">
+                <!-- Left -->
+                <div class="left-col">
+                    <!-- Story -->
+                    <div class="status-wrapper">
+                        <!-- 임시 스토리 목록 -->
+                        <div class="status-card">
+                            <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
+                            <p class="username">user1</p>
+                        </div>
+                        <div class="status-card">
+                            <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
+                            <p class="username">user2</p>
+                        </div>
+                        <div class="status-card">
+                            <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
+                            <p class="username">user3</p>
+                        </div>
+                        <div class="status-card">
+                            <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
+                            <p class="username">user4</p>
+                        </div>
+                    </div>
+
+                    <!-- Post -->
+                    <div class="post">
+                        <div class="info">
+                            <div class="user">
+                                <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
+                                <p class="username">user1</p>
+                            </div>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                        <div class="post-content">
+                            <div class="reaction-wrapper" class="icon">
+                                <button class="post-btn"><i class="far fa-heart"></i></button>
+                                <button class="post-btn"><i class="far fa-comment"></i></button>
+                                <button class="post-btn"><i class="far fa-paper-plane"></i></button>
+                                <button class="post-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                            <p class="likes">좋아요 100개</p>
+                            <p class="post-text"><span>user</span>임시 게시글</p>
+                            <p class="post-time">1일 전</p>
+                        </div>
+                        <div class="comment-wrapper">
+                            <button class="emoji-btn"><i class="far fa-smile"></i></button>
+                            <input type="text" class="comment-box" placeholder="댓글 달기...">
+                            <button class="comment-btn">게시</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="info">
+                            <div class="user">
+                                <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
+                                <p class="username">user2</p>
+                            </div>
+                            <img src="../common/images/option.PNG" class="options" alt="">
+                        </div>
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                        <div class="post-content">
+                            <div class="reaction-wrapper">
+                                <i class="far fa-heart" class="icon"></i>
+                                <i class="far fa-comment" class="icon"></i>
+                                <i class="far fa-paper-plane" class="icon"></i>
+                                <i class="far fa-bookmark" class="icon save"></i>
+                            </div>
+                            <p class="likes">좋아요 100개</p>
+                            <p class="post-text"><span>user</span>임시 게시글</p>
+                            <p class="post-time">1일 전</p>
+                        </div>
+                        <div class="comment-wrapper">
+                            <i class="far fa-smile"></i>
+                            <input type="text" class="comment-box" placeholder="댓글 달기...">
+                            <button class="comment-btn">게시</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right -->
+                <div class="right-col">
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="../common/images/test.png" alt="" class="profile-">
+                        </div>
+                        <div>
+                            <p class="username">user</p>
+                            <p class="sub-text">username</p>
+                        </div>
+                        <button class="switch-btn">전환</button>
+                    </div>
+                    <div class="offer-text">회원님을 위한 추천</div>
+                    <!-- TODO: [모두 보기] 버튼 추가 -->
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="../common/images/test.png" alt="">
+                        </div>
+                        <div>
+                            <p class="username">user</p>
+                            <p class="sub-text">회원님을 위한 추천</p>
+                        </div>
+                        <button class="follow-btn">팔로우</button>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="../common/images/test.png" alt="">
+                        </div>
+                        <div>
+                            <p class="username">user</p>
+                            <p class="sub-text">회원님을 위한 추천</p>
+                        </div>
+                        <button class="follow-btn">팔로우</button>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="../common/images/test.png" alt="">
+                        </div>
+                        <div>
+                            <p class="username">user</p>
+                            <p class="sub-text">회원님을 위한 추천</p>
+                        </div>
+                        <button class="follow-btn">팔로우</button>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="../common/images/test.png" alt="">
+                        </div>
+                        <div>
+                            <p class="username">user</p>
+                            <p class="sub-text">회원님을 위한 추천</p>
+                        </div>
+                        <button class="follow-btn">팔로우</button>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="../common/images/test.png" alt="">
+                        </div>
+                        <div>
+                            <p class="username">user</p>
+                            <p class="sub-text">회원님을 위한 추천</p>
+                        </div>
+                        <button class="follow-btn">팔로우</button>
+                    </div>
+                    <footer>
+                        <div class="footer-nav">
+                            <a href="#">소개</a> ·
+                            <a href="#">도움말</a> ·
+                            <a href="#">홍보 센터</a> ·
+                            <a href="#">API</a> ·
+                            <a href="#">채용 정보</a> ·<br/>
+                            <a href="#">개인정보처리방침</a> ·
+                            <a href="#">약관</a> ·
+                            <a href="#">위치</a> ·
+                            <a href="#">인기</a> ·
+                            <a href="#">계정</a> ·
+                            <a href="#">해시태그</a> ·
+                            <a href="#">언어</a>
+                        </div>
+                        <div class="license">© 2021 INSTAGRAM FROM FACEBOOK</div>
+                    </footer>
+                </div>
+            </div>
+            </section>
+
+        <script src="https://kit.fontawesome.com/4c8a0e292a.js" crossorigin="anonymous"></script>
+    </body>
+</html>
