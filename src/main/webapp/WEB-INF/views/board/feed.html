@@ -4,7 +4,9 @@
         <meta charset="utf-8"/>
         <title>Instagram</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../common/style.css"/>
+        <link rel="stylesheet" href="../common/style/common.css"/>
+        <link rel="stylesheet" href="../common/style/header.css"/>
+        <link rel="stylesheet" href="../common/style/feed.css"/>
     </head>
     <body>
         <!-- Header -->
@@ -18,10 +20,10 @@
                 </div>
                 <nav>
                     <ul class="navbar">
-                        <!--임시 프로필 아이콘-->
                         <li><a href="#"><i class="fas fa-home"></i></a></li>
                         <li><a href="#"><i class="far fa-plus-square"></i></i></a></li>
                         <li><a href="#"><i class="far fa-heart"></i></a></li>
+                        <!--임시 프로필 아이콘-->
                         <li><a href="#"><img href="" width="23px" src="../common/images/test.png"></a></li>
                     </ul>
                 </nav>
@@ -38,19 +40,19 @@
                         <!-- 임시 스토리 목록 -->
                         <div class="status-card">
                             <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
-                            <p class="username">user1</p>
+                            <p class="id">user1</p>
                         </div>
                         <div class="status-card">
                             <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
-                            <p class="username">user2</p>
+                            <p class="id">user2</p>
                         </div>
                         <div class="status-card">
                             <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
-                            <p class="username">user3</p>
+                            <p class="id">user3</p>
                         </div>
                         <div class="status-card">
                             <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
-                            <p class="username">user4</p>
+                            <p class="id">user4</p>
                         </div>
                     </div>
 
@@ -59,7 +61,7 @@
                         <div class="info">
                             <div class="user">
                                 <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
-                                <p class="username">user1</p>
+                                <p class="id">user1</p>
                             </div>
                             <i class="fas fa-ellipsis-h"></i>
                         </div>
@@ -85,17 +87,17 @@
                         <div class="info">
                             <div class="user">
                                 <div class="profile-pic"><img src="../common/images/test.png" alt=""></div>
-                                <p class="username">user2</p>
+                                <p class="id">user2</p>
                             </div>
                             <img src="../common/images/option.PNG" class="options" alt="">
                         </div>
                         <img src="../common/images/test.png" class="post-image" alt="">
                         <div class="post-content">
-                            <div class="reaction-wrapper">
-                                <i class="far fa-heart" class="icon"></i>
-                                <i class="far fa-comment" class="icon"></i>
-                                <i class="far fa-paper-plane" class="icon"></i>
-                                <i class="far fa-bookmark" class="icon save"></i>
+                            <div class="reaction-wrapper" class="icon">
+                                <button class="post-btn"><i class="far fa-heart"></i></button>
+                                <button class="post-btn"><i class="far fa-comment"></i></button>
+                                <button class="post-btn"><i class="far fa-paper-plane"></i></button>
+                                <button class="post-btn"><i class="far fa-bookmark"></i></button>
                             </div>
                             <p class="likes">좋아요 100개</p>
                             <p class="post-text"><span>user</span>임시 게시글</p>
@@ -116,8 +118,8 @@
                             <img src="../common/images/test.png" alt="" class="profile-">
                         </div>
                         <div>
-                            <p class="username">user</p>
-                            <p class="sub-text">username</p>
+                            <p class="id">id</p>
+                            <p class="sub-text">name</p>
                         </div>
                         <button class="switch-btn">전환</button>
                     </div>
@@ -128,7 +130,7 @@
                             <img src="../common/images/test.png" alt="">
                         </div>
                         <div>
-                            <p class="username">user</p>
+                            <p class="id">user</p>
                             <p class="sub-text">회원님을 위한 추천</p>
                         </div>
                         <button class="follow-btn">팔로우</button>
@@ -138,7 +140,7 @@
                             <img src="../common/images/test.png" alt="">
                         </div>
                         <div>
-                            <p class="username">user</p>
+                            <p class="id">user</p>
                             <p class="sub-text">회원님을 위한 추천</p>
                         </div>
                         <button class="follow-btn">팔로우</button>
@@ -148,7 +150,7 @@
                             <img src="../common/images/test.png" alt="">
                         </div>
                         <div>
-                            <p class="username">user</p>
+                            <p class="id">user</p>
                             <p class="sub-text">회원님을 위한 추천</p>
                         </div>
                         <button class="follow-btn">팔로우</button>
@@ -158,7 +160,7 @@
                             <img src="../common/images/test.png" alt="">
                         </div>
                         <div>
-                            <p class="username">user</p>
+                            <p class="id">user</p>
                             <p class="sub-text">회원님을 위한 추천</p>
                         </div>
                         <button class="follow-btn">팔로우</button>
@@ -168,7 +170,7 @@
                             <img src="../common/images/test.png" alt="">
                         </div>
                         <div>
-                            <p class="username">user</p>
+                            <p class="id">user</p>
                             <p class="sub-text">회원님을 위한 추천</p>
                         </div>
                         <button class="follow-btn">팔로우</button>
