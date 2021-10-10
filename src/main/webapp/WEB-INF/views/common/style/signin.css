@@ -1,0 +1,101 @@
+/* Signin */
+.signin-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.signin {
+    margin: auto;
+    padding: 20px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+.signin .logo {
+    margin: 3px 0 20px 0;
+}
+.signin input {
+    margin: 4px;
+    padding: 8px;
+    width: 270px;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 10pt;
+    color: #8e8e8e;
+}
+.signin input:active {
+    border: 1px solid #a8a8a8;
+}
+.signin input[type="submit"] {
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: #ffffff;
+}
+
+.signup {
+    margin: 10px auto;
+    padding: 20px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.option{
+    margin: auto;
+    color: #8e8e8e;
+    font-size: 10pt;
+}
+.hr-text {
+    margin: 12px 0 22px 0;
+    position: relative;
+    border: none;
+    color: #8e8e8e;
+    text-align: center;
+    font-weight: bold;
+    height: 22px;
+}
+.hr-text:before {
+    content: '';
+    background: #dbdbdb;
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    width: 269px;
+    height: 0.5px;
+}
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+    line-height: 1.5em;
+    color: #818078;
+    background-color: #ffffff;
+}
+.option .facebook {
+    vertical-align: middle;
+    color: #385185;
+    font-weight: bold;
+    
+}
+.option .forgot {
+    margin-top: 18px;
+    font-size: 9pt;
+    color: #00376b;
+}
+.signup .join {
+    color: #0095f6;
+    font-weight: bold;
+}

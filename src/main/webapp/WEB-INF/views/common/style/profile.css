@@ -1,0 +1,87 @@
+/* Common */
+* {
+    box-sizing: content-box;
+}
+
+/* Profile > Info */
+.main {
+    margin-top: 40px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    color: #353535;
+}
+
+.profile-card {
+    padding: 0 50px;
+    width: 800px; /* TODO: 가로 넓이 100%로 설정 */
+    height: auto;
+    display: flex;
+    align-items: left;
+    line-height: 20px;
+}
+.profile-card > * {
+    flex: 1;
+    font-size: 12pt;
+}
+.profile-card .profile-pic {
+    width: 145px;
+    height: 145px;
+    flex: 0 0 auto;
+    background: none;
+}
+
+.profile-card .profile-pic img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+}
+
+.profile-card .profile-info {
+    margin: 10px 70px;
+    width: 100%;
+}
+
+.profile-card .id {
+    margin-right: 15px;
+    text-align: left;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+.profile-edit-btn {
+    margin-right: 5px;
+    padding: 4px 7px;
+    background: none;
+    font-size: 10pt;
+    font-weight: bolder;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+.profile-option-btn {
+    background: none;
+    border: none;
+    font-size: 15pt;
+}
+
+.profile-card .profile-sub {
+    margin: 20px 0;
+}
+.profile-card .profile-sub > * {
+    margin-right: 30px;
+}
+
+.profile-card .profile-sub .profile-sub-num {
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+}
+
+/* Category */
+
+hr {
+    border: 1px solid;
+    height: 1px;
+}
