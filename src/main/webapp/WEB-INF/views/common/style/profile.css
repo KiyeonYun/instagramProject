@@ -3,18 +3,33 @@
     box-sizing: content-box;
 }
 
+button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
 /* Profile > Info */
 .main {
     margin-top: 40px;
-    padding: 40px 0;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     color: #353535;
 }
 
+.wrapper {
+    width: 950px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 30px;
+}
+
 .profile-card {
-    padding: 0 50px;
-    width: 800px; /* TODO: 가로 넓이 100%로 설정 */
+    margin: 8px 0;
+    padding: 0;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: left;
@@ -25,6 +40,7 @@
     font-size: 12pt;
 }
 .profile-card .profile-pic {
+    margin-left: 50px;
     width: 145px;
     height: 145px;
     flex: 0 0 auto;
@@ -39,7 +55,7 @@
 }
 
 .profile-card .profile-info {
-    margin: 10px 70px;
+    margin: 10px 90px;
     width: 100%;
 }
 
@@ -80,8 +96,51 @@
 }
 
 /* Category */
+.category {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 950px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    border-top: 1px solid #dbdbdb;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.category button {
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+.category button:active {
+    color: #c4c4c4;
+}
 
-hr {
-    border: 1px solid;
-    height: 1px;
+/* Posts */
+.post {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+.post-item {
+    margin: 15px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+.post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

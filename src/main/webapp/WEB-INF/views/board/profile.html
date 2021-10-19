@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Instagram</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../common/style/common.css"/>
+        <link rel="stylesheet" href="../common/style/header.css"/>
+        <link rel="stylesheet" href="../common/style/profile.css"/>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img href="feed.html" width="110px" src="../common/images/Instagram_logo.svg"/>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" placeholder="검색"/>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="#"><i class="fas fa-home"></i></a></li>
+                        <li><a href="#"><i class="far fa-plus-square"></i></i></a></li>
+                        <li><a href="#"><i class="far fa-heart"></i></a></li>
+                        <!--임시 프로필 아이콘-->
+                        <li><a href="#"><img href="" width="23px" src="../common/images/test.png"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Main -->
+        <section class="main">
+            <div class="wrapper">
+                <!-- Profile Information -->
+                <!-- 임시 프로필 -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="../common/images/test.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                        <div>
+                            <span class="id">username</span>
+                            <button class="profile-edit-btn">프로필 편집</button>
+                            <button class="profile-option-btn"><i class="fas fa-cog"></i></button>
+                        </div>
+                        <div class="profile-sub">
+                            <span>게시물 <span class="profile-sub-num">10</span></span>
+                            <!-- TODO: 1000자리 숫자까지 한줄로 표기 -->
+                            <span><button class="profile-follower-btn">팔로워 <span class="profile-sub-num">1,000천</span></button></span>
+                            <span><button class="profile-follow-btn">팔로우 <span class="profile-sub-num">10</span></button></span>
+                        </div>
+                        <div>
+                            <div class="name">이름</div>
+                            <div class="bio">임시 프로필</div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Category -->
+                <div class="category">
+                    <div>
+                        <button><i class="fas fa-border-all"></i> 게시물</button>
+                    </div>
+                    <div>
+                        <button><i class="far fa-play-circle"></i> 동영상</button>
+                    </div>
+                    <div>
+                        <button><i class="far fa-bookmark"></i > 저장됨</button>
+                    </div>
+                        <button><i class="far fa-id-badge"></i> 태그됨</button>
+                    </div>
+                </div>
+            </section>
+            <article>
+                <!-- Post -->
+                <div class="post">
+                    <div class="post-item">
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                    </div>
+                    <div class="post-item">
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                    </div>
+                    <div class="post-item">
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                    </div>
+                    <div class="post-item">
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                    </div>
+                    <div class="post-item">
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                    </div>
+                    <div class="post-item">
+                        <img src="../common/images/test.png" class="post-image" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <script src="https://kit.fontawesome.com/4c8a0e292a.js" crossorigin="anonymous"></script>
+    </body>
+</html>
